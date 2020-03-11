@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_height="250dp"
+    android:layout_marginRight="5dp">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="160dp"
+        android:layout_height="230dp"
+        android:src="@drawable/loading_image"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/AnimeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anime Name"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="#0A0909"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/Rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:layout_marginLeft="10dp"
+            android:textColor="#0E0C0C"
+            android:drawableLeft="@drawable/ic_rating">
+        </TextView>
+        <TextView
+            android:id="@+id/Category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Category"
+            android:textSize="15sp"
+            android:textColor="#0E0C0C">
+        </TextView>
+
+        <TextView
+            android:id="@+id/Studio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Studio"
+            android:textSize="15sp"
+            android:textColor="#0E0C0C">
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
